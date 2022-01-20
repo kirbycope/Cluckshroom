@@ -11,7 +11,7 @@ New-Item -Path "$gameDirectory\" -Name "temp" -ItemType "directory" -Force;
 # Copy Behavior Pack to temp directory
 Copy-Item -Path "$behaviorPacktory\$addonName" -Recurse -Destination "$temp\$addonName Behavior" -Container;
 # Copy Resource Pack to temp directory
-Copy-Item -Path "$resourcePacktory\$addonName" -Recurse -Destination "$temp\$addonName Resource" -Container;
+Copy-Item -Path "$resourcePacktory\$addonName" -Recurse -Destination "$temp\$addonName Resources" -Container;
 # Compress the directory into a .mcaddon
 Compress-Archive -Path  "$temp\*" -CompressionLevel Fastest -DestinationPath "$gameDirectory\$addonName.zip" -Force;
 # Remove existing zip
