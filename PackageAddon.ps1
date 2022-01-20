@@ -13,7 +13,7 @@ Copy-Item -Path "$behaviorPacktory\$addonName" -Recurse -Destination "$temp\$add
 # Copy Resource Pack to temp directory
 Copy-Item -Path "$resourcePacktory\$addonName" -Recurse -Destination "$temp\$addonName Resources" -Container;
 # Compress the directory into a .mcaddon
-Compress-Archive -Path  "$temp\*" -CompressionLevel Fastest -DestinationPath "$gameDirectory\$addonName.zip" -Force;
+Compress-Archive -Path  "$temp\*" -DestinationPath "$gameDirectory\$addonName.zip" -Force;
 # Remove existing zip
 Remove-Item "$gameDirectory\$addonName.mcaddon" -Force -ErrorAction SilentlyContinue;
 # Rename zip to mcaddon
