@@ -6,4 +6,4 @@ Cluckshrooms are a mushroom-covered variant of the chicken, exclusive to Minecra
  - Based on `chicken` entity
  - Lays `brown_mushroom` instead of `egg`
  - Shears will transform the entity
- - Spawns in Mooshroom Island biomes
+ - Spawns in Mooshroom Island biome
