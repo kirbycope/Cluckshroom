@@ -7,7 +7,7 @@ Cluckshrooms are a mushroom-covered variant of the chicken, exclusive to Minecra
 1. Double-click the mcaddon file
 1. Load the Resource and Behaviour packs for your world/save
 
-## Behaviours
+## Behaviors
  - Based on `chicken` entity
  - Lays `brown_mushroom` instead of `egg`
  - Shears will transform the entity into a `chicken`
