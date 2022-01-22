@@ -284,7 +284,12 @@
 			"minecraft:follow_range": {
 				"value": 64
 			},
-			"minecraft:conditional_bandwidth_optimization": {}
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:inventory": {
+			  "container_type": "minecart_chest",
+			  "inventory_size": 27,
+			  "can_be_siphoned_from": true
+			}
 		},
 		"events": {
 			"minecraft:from_player": {
