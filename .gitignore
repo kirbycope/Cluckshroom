@@ -2,7 +2,7 @@
 *.dat
 behavior_packs/
 minecraftpe/
-minecraftWorlds/
+#minecraftWorlds/
 resource_packs/
 skin_packs/
 temp/
