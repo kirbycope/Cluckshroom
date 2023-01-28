@@ -1,4 +1,4 @@
-![Cluckshroom](/bedrock-cluckshroom.png)
+[![Cluckshroom](/bedrock-cluckshroom.png)](https://youtube.com/shorts/2nFy6XpfjGw)
 
 # Cluckshroom
 Cluckshrooms are a mushroom-covered variant of the chicken, exclusive to Minecraft Earth. This addon brings them to Minecraft Bedrock edition!
