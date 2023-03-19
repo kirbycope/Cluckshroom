@@ -1,0 +1,9 @@
+{
+    "texture_data": {
+        "cluckshroom_egg": {
+            "textures": [
+                "textures/items/cluckshroom_egg"
+            ]
+        }
+    }
+}

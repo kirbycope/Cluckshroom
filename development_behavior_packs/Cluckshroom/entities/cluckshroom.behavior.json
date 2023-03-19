@@ -3,7 +3,6 @@
 	"minecraft:entity": {
 		"description": {
 			"identifier": "cope:cluckshroom",
-			"runtime_identifier": "minecraft:chicken",
 			"is_spawnable": true,
 			"is_summonable": true,
 			"is_experimental": false
@@ -92,7 +91,7 @@
 							"hurt_item": 1,
 							"play_sounds": "shear",
 							"spawn_items": {
-								"table": "loot_tables/cluckshroom.loot.json"
+								"table": "loot_tables/cluckshroom_shear.loot.json"
 							},
 							"particle_on_start": {
 								"particle_type": "heart",
@@ -108,7 +107,7 @@
 						"min_wait_time": 300,
 						"max_wait_time": 600,
 						"spawn_sound": "plop",
-						"spawn_item": "brown_mushroom",
+						"spawn_item": "cope:cluckshroom_egg",
 						"filters": {
 							"test": "rider_count",
 							"subject": "self",
