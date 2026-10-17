@@ -7,3 +7,6 @@ resource_packs/
 skin_packs/
 temp/
 world_templates/
+
+# the release build, written by tools/build_addon.py
+/build/
